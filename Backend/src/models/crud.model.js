@@ -9,7 +9,7 @@ let Overview =(user) => {
   Overview.description=(req,result)=>{
 
     try{
-        db.query(`SELECT * FROM youtube_table `,(err,res)=>{
+        db.query(`SELECT * FROM users `,(err,res)=>{
            console.log("ressssssssssssssssssss216551",res);
            return result (null,{
             data:res,
