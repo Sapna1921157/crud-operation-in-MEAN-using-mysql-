@@ -8,9 +8,18 @@ import { Router,RouterOutlet } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+  CurrentComponent = '';
+  currentComponent: any;
+  username: any;
+  userType: any;
 
   constructor(private router: Router
     
     ) {}
 
+    ngOnInit(): void {
+  
+    
+    }
+ 
 }
